@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int x1,v1,x2,v2;
+    int i;
+    cin>>x1>>v1>>x2>>v2;
+    for(i=0;;i++)
+    {
+        x1=x1+v1;
+        x2=x2+v2;
+        if(x1==x2)
+        {
+            cout<<"YES"<<endl;
+            break;
+        }
+        if(v1> v2 && x1>x2 || v2>v1 && x2>x1 || v2==v1 && x1!=x2 )
+        {
+            cout<<"NO"<<endl;
+            break;
+        }
+
+    }
+}
