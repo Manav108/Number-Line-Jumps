@@ -31,9 +31,8 @@ A single line of four space-separated integers denoting the respective values of
 
 Constraints
 
-Sample Input 0
-
+Sample Input 
 0 3 4 2
-Sample Output 0
 
+Sample Output 
 YES
